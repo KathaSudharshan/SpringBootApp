@@ -2,7 +2,7 @@
 Spring Boot Demo Application
 
 **What is SrpingBoot**
-SpringBoot is an extention of spring framework which is open source java based framework and used for creating faster and easier microservices for integrating with multiple systems/REST APIs.
+    SpringBoot is an extention of spring framework which is open source java based framework and used for creating faster and easier microservices for integrating with multiple systems/REST APIs.
 Easy to create Stand alone and production grade applications using SpringBoot. 
 Provides broad infrastructure support for creating micro and enterprise level applications for deveopers. Developed by Pivotal 
 
