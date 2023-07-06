@@ -30,7 +30,7 @@ Provides broad infrastructure support for creating micro and enterprise level ap
 4. Once uploaded do the following changes,
    a. Create a Rest Endpoint as (/demo) in the Spring Application adding @ResrController annotation on top of the Demo Java class.
    b. Write hello() method by passing name as argument and add @RequestParam annotation pass default value if not provided.
-   c. Use @RequestMapping(value="/demo") on top of hello() method.
+   c. Use @GetMapping(value="/demo") on top of hello() method.
 
 ## Deployment
 To deploy this project run create build file using mavne and gradle commands using commandline
