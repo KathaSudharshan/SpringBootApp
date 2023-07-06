@@ -13,7 +13,7 @@ public class DemoApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
 	}
-	@GetMapping("/hello")
+	@GetMapping("/demo")
 	public String hello(@RequestParam(value = "name", defaultValue = "Sudharshan") String name) {
 	      return String.format("Hello %s! from Spring boot application", name);
 	    }
