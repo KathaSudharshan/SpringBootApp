@@ -47,5 +47,8 @@ Deploy this project JAR file which can observe in target folder as demo-0.0.1-SN
   java -jar demo-0.0.1-SNAPSHOT.jar
 ```
 Observe console which shows application running with Tomcat server on default port number 8080 and hit browser using http://localhost:8080/demo which returns default response as "Hello Sudharshan! from Spring boot aplication"
+![image](https://github.com/KathaSudharshan/SpringBootApp/assets/138109855/cbdb8471-e973-4d2f-9376-f50f171e2eaa)
+
+NOTE: Here uri name used as hello use demo instead
 
 To change response with different value pass Request Parameter in url like ?name="value"
